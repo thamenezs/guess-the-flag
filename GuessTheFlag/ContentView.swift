@@ -97,7 +97,7 @@ struct ContentView: View {
             score += 100
         } else {
             scoreTitle = "Wrong! The one you taped is the flag of \(countries[number])"
-            score = 0
+            score -= 100
         }
         
         showingScore = true
